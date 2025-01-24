@@ -1,0 +1,22 @@
+{
+  "name": "esbuild-demo",
+  "version": "1.0.0",
+  "description": "test esbuild",
+  "main": "index.js",
+  "scripts": {
+    "esbuild": "node esbuild.js",
+    "webpack": "webpack"
+  },
+  "keywords": [
+    "esbuild",
+    "webpack"
+  ],
+  "author": "zhangluyao",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}

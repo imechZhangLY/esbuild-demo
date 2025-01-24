@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test esbuild dataurl loader</title>
+</head>
+<body>
+    <h1>Compare esbuild dataurl loader and webpack url-loader</h1>
+    <h2>esbuild dataurl loader</h2>
+    <P>
+        esbuild dataurl loader will convert svg file to unicode string. The string is not escaped. if we use it directly as the parameter of the url() function in css, it will cause css syntax error.
+    <h2>webpack url-loader</h2>
+    <P>
+        webpack url-loader will convert svg file to base64 string. It can be used as the parameter of the url() function in css.
+    </P>
+    <script src="./dist/index.js"></script>
+</body>
+</html>
